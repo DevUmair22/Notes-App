@@ -9,5 +9,94 @@ body {
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  monospace;
 }
+/* main-container{
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.navbar{
+  position: absolute;
+  top: 83px;
+  bottom: 0;
+
+  left: 0;
+  width: 50px;
+  background-color: GREEN;
+  display: flex;
+  column-gap: 40px;
+}
+.navbar ul{
+  overflow: hidden;
+margin: 0px;
+padding: 0px;
+}
+
+
+
+.navbar ul li{
+  text-decoration: none;
+  padding: 15px 10px 10px 10px;
+  margin: 0px;
+  display: block;
+  width: auto;
+ font-size: 30px;
+  align-items: center;
+  
+}
+
+.navbar ul li p{
+  padding-left: 20px;
+  font-size: large;
+  font-weight: 500;
+  display: none;
+}
+
+.navbar:hover{
+  width: 200px;
+  background-color: red;
+  position: absolute;
+}
+
+.navbar:hover ul li {
+align-items: center;
+padding: 15px 10px 10px 10px;
+margin: 0px;
+display: block;
+width: auto;
+font-size: 30px;
+
+}
+.navbar:hover ul li p{
+  display: inline-block;
+  
+}
+
+.nB-Container{
+height: 83vh;
+width: auto;
+margin-left: 50px;
+  background-color: aqua;
+}
+.nB-inner{
+padding: 20px;
+margin: 20px;
+height: 100%;
+width: 100%;
+display: flex;
+}
+.note-container{
+height: 250px;
+width: 200px;
+border: 2px solid black;
+border-radius: 10px;
+flex: 1;
+margin: 20px;
+}
+.note-inner{
+  
+  margin: 0px;
+  padding: 10px;
+} */
