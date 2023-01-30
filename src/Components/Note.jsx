@@ -3,8 +3,8 @@ import { Grid } from '@mui/material'
 
 
 
-const Note = (props) => {
-
+const Note = ({id,desc,title}) => {
+console.log("item",title)
   return (
     <Grid container
     direction="column"
@@ -14,8 +14,8 @@ const Note = (props) => {
     p={3} borderRadius={2} 
     >
    
-        <h3>{props.title}</h3>
-        <p>{props.desc}</p>
+        <h3>{title}</h3>
+        <p>{desc}</p>
        
     
 </Grid>

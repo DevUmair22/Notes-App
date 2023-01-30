@@ -12,6 +12,7 @@ const Navbar = () => {
   alignItems="center"
   m="10px 10px 10px 0px"
   border="2px solid black"
+  
 >
 <Grid container
   direction="row"

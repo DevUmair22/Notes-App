@@ -1,10 +1,16 @@
 import { Container } from '@mui/material'
+import { useState } from 'react'
 import React from 'react'
 import Header from '../Components/Header'
-import Navbar from '../Components/Navbar'
+
 import NoteBoard from '../Components/NoteBoard'
+import { noteArray } from '../Components/Styled'
 
 const Home = () => {
+const [notes,setNote]=useState(
+  noteArray
+)
+
   return (
     <>
     <Container maxWidth="xs sm md lg" border="2px solid black">
@@ -12,7 +18,7 @@ const Home = () => {
       <Header />
       
 {/* <Navbar/> */}
-       <NoteBoard/>
+       <NoteBoard notes={notes}/>
       
        {/* </div> */}
        </Container>

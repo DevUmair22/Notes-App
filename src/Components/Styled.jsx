@@ -2,32 +2,24 @@ import styled from 'styled-components'
 import {mobile} from '../responsive'
 
 
-export const array=[{
-    title:
-        "My Note 1"
-    
-    ,desc:
-       " This is The Description # 1"
-       ,id:"1"
+export const noteArray=[{
+    title: "My Note 1",
+    desc:" This is The Description # 1",
+    id:"1"
     },
     {
-        title:
-           " My Note 2"
-        ,desc:
-           " This is The Description # 2"
-           ,id:"2"},
-        {
-            title:
-               " My Note 3"
-            ,desc:
-                "This is The Description # 3"
-                ,id:"3"},
-            {
-                title:
-                    "My Note 4"
-                ,desc:
-                  "  This is The Description # 4"
-                  ,id:"4"}
+        title: "My Note 2",
+        desc:" This is The Description # 2",
+        id:"2"
+        },{
+            title: "My Note 3",
+            desc:" This is The Description # 3",
+            id:"3"
+            },{
+                title: "My Note 4",
+                desc:" This is The Description # 4",
+                id:"4"
+                },
 ]
 
 
